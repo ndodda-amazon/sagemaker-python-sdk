@@ -389,8 +389,8 @@ class Rule(RuleBase):
         """Prepare actions for Debugger Rule.
 
         Args:
-            training_job_name (str): The training job name. To be set as the default training job prefix for the
-                StopTraining action if it is specified.
+            training_job_name (str): The training job name. To be set as the default training job
+                prefix for the StopTraining action if it is specified.
 
         """
         if self.actions is None:

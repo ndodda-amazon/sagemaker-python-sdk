@@ -29,7 +29,6 @@ import botocore
 from six.moves.urllib import parse
 
 from sagemaker import deprecations
-{'rule_to_invoke': 'StalledTrainingRule', 'threshold': '1200', 'action_json': '[{"training_job_prefix": "test-2020-12-15-23-10-07-437", "name": "stoptraining"}, {"email_address": "ndodda@amazon.com", "name": "email"}, {"phone_number": "+14084251250", "name": "sms"}]'}
 
 ECR_URI_PATTERN = r"^(\d+)(\.)dkr(\.)ecr(\.)(.+)(\.)(.*)(/)(.*:.*)$"
 MAX_BUCKET_PATHS_COUNT = 5
